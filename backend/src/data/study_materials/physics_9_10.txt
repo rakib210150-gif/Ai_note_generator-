@@ -1,0 +1,120 @@
+# NCTB Secondary Physics — Class 9-10 (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড পদার্থবিজ্ঞান ৯ম-১০ম শ্রেণি)
+
+## Chapter 1: Physical World and Measurement (ভৌত রাশি ও পরিমাপ)
+- Physics Definition: The fundamental branch of science dealing with the nature and properties of matter and energy.
+- Physical Quantities: Fundamental (Base) quantities (7 SI units): Length (m), Mass (kg), Time (s), Electric current (A), Temperature (K), Amount of substance (mol), Luminous intensity (cd). Derived quantities: Velocity, acceleration, force, work, pressure, power.
+- Dimensions: Dimension of Velocity [v] = [LT^-1], Acceleration [a] = [LT^-2], Force [F] = [MLT^-2], Work/Energy [W] = [ML^2T^-2], Pressure [P] = [ML^-1T^-2].
+- Measuring Instruments: Vernier Calipers (VC = s/n where s is main scale division, n is vernier division), Screw Gauge (Least count LC = Pitch / Total circular scale divisions), Balance, Stopwatch.
+- Errors in Measurement: Personal error, instrumental error, random error, systematic error. Relative error = delta_x / x, Percentage error = (delta_x / x) * 100%.
+
+## Chapter 2: Motion (গতি)
+- Rest and Motion: Rest and motion are relative; absolute rest or absolute motion is meaningless in this universe.
+- Types of Motion: Linear motion, circular motion, periodic motion, rotational motion, vibratory/oscillatory motion (Simple Harmonic Motion).
+- Scalar and Vector Quantities: Scalar (magnitude only: distance, speed, mass, time, energy), Vector (magnitude + direction: displacement, velocity, acceleration, force, momentum).
+- Equations of Uniform Acceleration Motion:
+  1. v = u + at
+  2. s = ((u + v) / 2) * t
+  3. s = ut + 0.5 * a * t^2
+  4. v^2 = u^2 + 2as
+  5. Distance in t-th second: s_t = u + 0.5 * a * (2t - 1)
+- Motion of Freely Falling Bodies under Gravity (g = 9.8 m/s^2):
+  1. v = u + gt
+  2. h = ut + 0.5 * g * t^2
+  3. v^2 = u^2 + 2gh
+  4. Max height H = u^2 / (2g), Time to reach max height t = u / g, Total flight time T = 2u / g.
+- Galileo's Laws of Falling Bodies: In vacuum, all bodies falling from rest traverse equal distances in equal intervals of time.
+
+## Chapter 3: Force (বল)
+- Inertia: The innate property of an object to maintain its state of rest or uniform motion. Qualitative definition from Newton's First Law.
+- Newton's Laws of Motion:
+  - First Law: Every body perseveres in its state of rest or of uniform motion in a right line, unless compelled by applied forces. Defines Force and Inertia.
+  - Second Law: The rate of change of momentum of a body is proportional to the applied force and takes place in the direction of the force. F = ma (momentum p = mv, dp/dt = m * dv/dt = ma).
+  - Third Law: To every action there is always an equal and opposite reaction (F1 = -F2).
+- Law of Conservation of Momentum: In absence of external force, total momentum remains conserved: m1*u1 + m2*u2 = m1*v1 + m2*v2.
+- Recoil of Gun: V = -(m * v) / M (where M is gun mass, m is bullet mass, v is bullet velocity).
+- Friction: Static friction (f_s <= mu_s * R), Sliding friction (f_k = mu_k * R), Rolling friction, Fluid friction. Friction is a necessary evil.
+
+## Chapter 4: Work, Power and Energy (কাজ, ক্ষমতা ও শক্তি)
+- Work (W): W = F * s * cos(theta). If force and displacement are in same direction (theta = 0 deg), W = F * s (Unit: Joule = N*m). Work done against gravity: W = mgh. Positive work vs Negative work (work done against force).
+- Energy: Capacity of doing work. Types: Kinetic Energy (Ek = 0.5 * m * v^2 = p^2 / (2m)), Potential Energy (Ep = mgh).
+- Law of Conservation of Mechanical Energy: Total energy E = Ek + Ep = constant for freely falling bodies at all heights.
+- Power (P): Rate of doing work. P = W / t = F * v (Unit: Watt = J/s. 1 Horsepower = 746 W).
+- Efficiency (eta): eta = (Useful Work Output / Total Energy Input) * 100% = (P_out / P_in) * 100%.
+
+## Chapter 5: Pressure and States of Matter (পদার্থের অবস্থা ও চাপ)
+- Pressure (P): Force per unit area: P = F / A (Unit: Pascal = N/m^2). Liquid pressure at depth h: P = h * rho * g.
+- Archimedes' Principle: When a body is immersed wholly or partially in a fluid, it experiences an upward buoyant force equal to the weight of fluid displaced: F_B = V * rho * g.
+- Flotation and Immersion of Bodies:
+  - W > F_B (or rho_body > rho_fluid): Body sinks.
+  - W = F_B (or rho_body = rho_fluid): Body floats completely submerged.
+  - W < F_B (or rho_body < rho_fluid): Body floats partially submerged (V_submerged / V_total = rho_body / rho_fluid).
+- Pascal's Law & Hydraulic Press: Pressure applied to an enclosed liquid is transmitted equally in all directions: F2 / F1 = A2 / A1.
+- Elasticity & Hooke's Law: Within elastic limit, Stress is proportional to Strain (Stress / Strain = Y, Young's Modulus Y = (F/A) / (delta_L / L)).
+
+## Chapter 6: Effect of Heat on Matter (বস্তুর উপর তাপের প্রভাব)
+- Temperature & Heat: Heat is energy; Temperature is thermal state measuring degree of hotness.
+- Thermometric Scales: C/5 = (F - 32)/9 = (K - 273.15)/5.
+- Thermal Expansion of Solids:
+  - Linear expansion: delta_L = alpha * L1 * delta_theta
+  - Surface/Area expansion: delta_A = beta * A1 * delta_theta (beta approx 2*alpha)
+  - Volume expansion: delta_V = gamma * V1 * delta_theta (gamma approx 3*alpha)
+- Specific Heat Capacity (s): Q = m * s * delta_theta => s = Q / (m * delta_theta) (Unit: J/(kg*K)). Specific heat of water = 4200 J/(kg*K).
+- Latent Heat: Heat absorbed during phase change at constant temperature (Q = m * L). Latent heat of fusion of ice L_f = 3.36 * 10^5 J/kg, Latent heat of vaporization of water L_v = 2.26 * 10^6 J/kg.
+- Principle of Calorimetry: Heat lost by hot body = Heat gained by cold body (in isolated system).
+
+## Chapter 7: Waves and Sound (তরঙ্গ ও শব্দ)
+- Wave Characteristics: Periodic disturbance propagating energy without net transport of matter. Transverse wave vs Longitudinal wave.
+- Wave Parameters: Amplitude (A), Wavelength (lambda), Time Period (T), Frequency (f = 1/T), Wave Velocity (v = f * lambda).
+- Sound Wave: Longitudinal mechanical wave requiring material medium. Velocity in air at 0 deg C approx 332 m/s; v_T = v_0 + 0.6 * theta. Audible range: 20 Hz to 20,000 Hz. Infrasonic (<20 Hz), Ultrasonic (>20,000 Hz).
+- Echo: Reflection of sound. Minimum distance for distinct echo in air at 20 deg C: d = (v * t) / 2 = (344 * 0.1) / 2 = 17.2 m (persistence of hearing = 0.1 s). Depth of well/ocean: d = (v * t) / 2.
+
+## Chapter 8: Reflection of Light (আলোর প্রতিফলন)
+- Laws of Reflection:
+  1. Incident ray, reflected ray, and normal to surface lie in same plane.
+  2. Angle of incidence equals angle of reflection (i = r).
+- Spherical Mirrors: Concave and Convex mirrors. Mirror formula: 1/f = 1/u + 1/v and f = R/2.
+- Linear Magnification (m): m = -v/u = Image Height / Object Height.
+- Ray diagrams for concave mirror: Real and inverted images vs virtual and magnified image (when object placed between pole and focus).
+
+## Chapter 9: Refraction of Light (আলোর প্রতিসরণ)
+- Laws of Refraction (Snell's Law): sin(i) / sin(r) = v1 / v2 = n2 / n1 = 1_n_2.
+- Critical Angle (theta_c) and Total Internal Reflection (TIR): Light travelling from denser to rarer medium with i > theta_c. sin(theta_c) = 1/n. Optical fibers work on TIR.
+- Lenses: Convex (converging) and Concave (diverging). Lens formula: 1/f = 1/v - 1/u. Power of lens P = 1 / f(in meters) (Unit: Diopter, D).
+- Human Eye & Defects of Vision: Myopia (short-sightedness, corrected by concave lens), Hypermetropia (long-sightedness, corrected by convex lens).
+
+## Chapter 10: Static Electricity (স্থির তড়িৎ)
+- Electric Charge: Positive and negative charges. Like charges repel, unlike attract. Quantization of charge q = n * e (e = 1.6 * 10^-19 C).
+- Coulomb's Law: F = (1 / (4 * pi * epsilon_0)) * (q1 * q2 / r^2) = 9 * 10^9 * (q1 * q2 / r^2) N.
+- Electric Field Intensity (E): E = F / q = 9 * 10^9 * (q / r^2) N/C.
+- Electric Potential (V): V = W / q = 9 * 10^9 * (q / r) Volts.
+
+## Chapter 11: Current Electricity (চল তড়িৎ)
+- Electric Current (I): Rate of flow of charge: I = Q / t (Unit: Ampere, A).
+- Ohm's Law: At constant temperature, current through conductor is proportional to potential difference: V = I * R.
+- Resistance Factors: R = rho * (L / A) (rho is specific resistance / resistivity).
+- Circuit Combinations:
+  - Series: R_s = R1 + R2 + ... + Rn
+  - Parallel: 1/R_p = 1/R1 + 1/R2 + ... + 1/Rn
+- Electric Power and Energy: P = V * I = I^2 * R = V^2 / R. Energy W = P * t = V * I * t Joules. Commercial unit: 1 kWh = 1 unit = 3.6 * 10^6 J.
+
+## Chapter 12: Magnetic Effect of Current (বিদ্যুতের চৌম্বক ক্রিয়া)
+- Electromagnetism (Oersted's Experiment): Current carrying conductor produces magnetic field around it. Right-hand grip rule.
+- Electromagnetic Induction (Faraday's Law & Lenz's Law): Induced EMF in circuit is proportional to rate of change of magnetic flux: epsilon = -dPhi / dt.
+- Electric Motor vs Generator: Motor converts electrical energy to mechanical energy; Generator converts mechanical energy to electrical energy.
+- Transformer: Step-up and Step-down transformer: E_p / E_s = N_p / N_s = I_s / I_p. Power equality: E_p * I_p = E_s * I_s.
+
+## Chapter 13: Modern Physics and Electronics (আধুনিক পদার্থবিজ্ঞান ও ইলেকট্রনিক্স)
+- Radioactivity: Spontaneous decay of unstable nuclei (Becquerel). Alpha, Beta, Gamma rays. Half-life (T_1/2).
+- Electronics & Semiconductors: Intrinsic vs extrinsic semiconductors (p-type and n-type). p-n junction diode (rectifier), Transistor.
+- Logic Gates: AND, OR, NOT, NAND, NOR gates with truth tables.
+- Communication Tech: Radio, television, telephone, fax, internet, optical fiber.
+
+## Chapter 14: Physics to Save Life (জীবন বাঁচাতে পদার্থবিজ্ঞান)
+- Medical Diagnostics:
+  - X-ray: High frequency electromagnetic waves for bone fractures and chest imaging.
+  - Ultrasonography: Ultrasonic sound waves (1-10 MHz) for soft tissue imaging and fetal monitoring.
+  - CT Scan (Computed Tomography): Multi-slice X-ray 3D tomography.
+  - MRI (Magnetic Resonance Imaging): Uses strong magnetic fields and radiofrequency waves without ionizing radiation.
+  - Endoscopy: Uses total internal reflection via optical fibers to inspect internal organs.
+  - ECG and EEG: Recording electrical activity of heart (electrocardiogram) and brain (electroencephalogram).
+  - Radiotherapy: Using ionizing radiation to destroy cancerous cells.

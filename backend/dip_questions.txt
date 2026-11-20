@@ -1,0 +1,154 @@
+DIGITAL IMAGE PROCESSING 
+Topic-wise Previous Question Bank (2018-2023) 
+Topic 1 - Digital Image Processing Fundamentals & Human Vision 
+1. Define an image / digital image and digital image processing. Discuss the application areas of digital image 
+processing and its disadvantages. - [2018, 2019, 2020, 2021, 2022, 2023] 
+2. State the fundamental steps used in digital image processing. - [2018, 2020, 2021] 
+3. Describe the components of a general-purpose image processing system. - [2018, 2020, 2022] 
+4. What are the principal categories of digital storage required for a digital image processing system? - [2018] 
+5. How are digital images represented? Explain briefly. - [2019, 2020, 2022] 
+6. Explain how an image is formed in the human eye. Draw the structure of the human eye and describe the functions of 
+its components. - [2018, 2023] 
+7. Numerical: A person observes a tree of about 15 m height from a distance of 100 m. If the distance between the eye's 
+optical centre and the retina is 17 mm, calculate the height of the image formed on the retina. - [2023] 
+8. Describe the simple image formation model. - [2018, 2023] 
+9. Distinguish between monocular and binocular vision. - [2018, 2020] 
+10. What are the differences between photopic and scotopic vision? - [2019, 2022] 
+11. Define / explain image sampling and quantization. Describe the process with an example where required. - [2018, 
+2020, 2021, 2022, 2023] 
+Topic 2 - Pixel Relationships, Adjacency & Distance Measures 
+12. What are 4-adjacency, 8-adjacency and m-adjacency among pixels? Give examples. - [2019] 
+13. For V = {1}, determine whether the two image subsets S1 and S2 are (i) 4-adjacent, (ii) 8-adjacent and (iii) m-
+adjacent. - [2018] 
+ 
+14. Show the m-adjacent path from the top-right to the bottom-left pixel using the set of similar pixels V = {125, 126, 127, 
+128}. - [2019] 
+124 124 127 125 
+124 127 126 124 
+124 128 124 123 
+126 127 124 124 
+ 
+15. What is a distance function? Explain / define Euclidean distance, City-block distance and Chessboard distance. - 
+[2018, 2022, 2023] 
+
+16. Calculate (i) Euclidean, (ii) City-block and (iii) Chessboard distances between spatial locations P(5,5) and Q(20,20). 
+- [2019] 
+17. For the image segment below, compute D4, D8 and Dm distances between p(0,0) and q(4,4) for (i) V = {2,3} and (ii) V 
+= {2,6}. - [2020] 
+2 3 2 6 1 
+6 2 3 6 2 
+5 3 2 3 5 
+2 4 3 5 2 
+4 5 2 3 6 
+ 
+18. For the image segment below, let V = {0,1} and compute the lengths of the shortest 4-, 8- and m-path between p and 
+q. If a particular path does not exist, explain why. - [2022] 
+3 1 2 1 (q) 
+2 2 0 2 
+1 2 1 1 
+(p) 1 0 1 2 
+ 
+Topic 3 - Image Enhancement, Histogram & Filtering 
+19. What do you mean by image enhancement? Explain image-enhancement techniques where required. - [2019, 2020, 
+2021, 2023] 
+20. Explain / describe the image transformation function, including basic gray-level transformation where required. - 
+[2019, 2020, 2022, 2023] 
+21. Distinguish between image enhancement and image restoration techniques. - [2019, 2022] 
+22. Write the formulas for log transformation and power-law transformation. - [2018] 
+23. What is histogram processing? Write down its applications. - [2018, 2022, 2023] 
+24. What information does the histogram of a digital image convey? Draw the histogram of the following image. - [2019] 
+0 1 2 3 4 
+1 3 4 4 5 
+2 3 5 6 6 
+3 4 6 7 7 
+3 4 6 7 7 
+ 
+25. Briefly explain / describe histogram equalization. - [2020, 2021] 
+ 
+ 
+ 
+ 
+ 
+ 
+
+26. Numerical: A 3-bit image (L = 8) of size 64 x 64 pixels (MN = 4096) has the intensity distribution shown below. Find 
+the histogram equalization transformation-function values and draw the equalized histogram. - [2022] 
+ 
+r_k n_k p_r(r_k) = n_k / MN 
+r0 = 0 790 0.19 
+r1 = 1 1023 0.25 
+r2 = 2 850 0.21 
+r3 = 3 656 0.16 
+r4 = 4 329 0.08 
+r5 = 5 245 0.06 
+r6 = 6 122 0.03 
+r7 = 7 81 0.02 
+ 
+27. What do you mean by filtering? Describe / explain homomorphic filtering and its key stages in detail. - [2018, 2021] 
+28. Discuss smoothing spatial filtering, including its technique, uses and applications. - [2019, 2020] 
+29. Explain different mean filtering methods for image restoration. - [2021] 
+30. What are the constant multipliers for the following two smoothing filters? - [2019] 
+ 
+31. What is a mask / masking? Discuss / explain the mechanism of linear spatial filtering. - [2020, 2021, 2023] 
+32. Write down the basic steps for filtering in the frequency domain. - [2020, 2021] 
+33. Describe the Butterworth low-pass filter, Gaussian low-pass filter and Ideal high-pass filter with diagrams. - [2019] 
+34. Define image sharpening and smoothing. State the objectives of sharpening an image where required. - [2021, 2023] 
+35. Define aliasing. - [2021] 
+36. Describe image negative. - [2021] 
+
+Topic 4 - Light, Colour Models & Colour Image Processing 
+37. Describe / draw the light and electromagnetic spectrum with a necessary figure, including the visible portion where 
+required. - [2018, 2019, 2020, 2023] 
+38. What do you mean by achromatic and chromatic light? - [2019, 2023] 
+39. What do you mean by chromaticity and tristimulus values? - [2018] 
+40. What is a colour model? Write about colour fundamentals / list the colour models. - [2020, 2021, 2022, 2023] 
+41. Write about the RGB and CMY colour models. - [2019] 
+42. Explain the basics of full-colour image processing. - [2020] 
+43. Describe the HSI colour model. Why is the HSI model advantageous / better than other colour models in image 
+processing? - [2018, 2023] 
+44. Define HUE, Saturation and Luminance. - [2021] 
+45. Differentiate between the RGB colour model and the HSI colour model. - [2022] 
+46. Describe / perform conversion from RGB colour format to HSI by calculating hue, saturation and intensity 
+components. - [2018, 2020, 2022] 
+47. Discuss / perform colour conversion from HSI to RGB, including the RG, GB and BR sectors where required. - [2019, 
+2023] 
+48. Numerical: If R = 200, G = 100 and B = 50, find the values of I, H and S in the HSI colour model. - [2022] 
+Topic 5 - Image Restoration & Noise 
+49. What is image restoration? Explain / describe the image restoration or image degradation model/process, with a 
+diagram where required. - [2020, 2021, 2022] 
+50. Define noise / noise model. Why does noise occur in an image? Name the different noise models and discuss the 
+Gaussian noise model where required. - [2019, 2023] 
+51. Define probability density function. Briefly discuss Gaussian, Exponential and Gamma noise functions. - [2021] 
+52. Mention the spatial and frequency properties of noise. - [2021] 
+Topic 6 - Image Compression & Redundancy 
+53. What is image compression? Explain the need for image compression and describe / draw a general image-
+compression system model and how it works. - [2018, 2019, 2020, 2021, 2022] 
+54. Differentiate between lossless and lossy image-compression methods/models. - [2018, 2022] 
+55. What is lossless image compression? Describe a lossless image-compression method with an example. - [2022] 
+56. What do you mean by data redundancy? - [2018, 2020, 2022] 
+57. Describe the working principle of a channel encoder and decoder. - [2020] 
+58. Explain psychovisual redundancy. - [2018] 
+59. Define coding redundancy and inter-pixel redundancy. - [2019] 
+60. Explain lossy predictive coding. - [2020, 2021] 
+61. What is Huffman coding? Analyze / discuss the two steps of Huffman coding with an appropriate example. - [2018, 
+2020, 2021, 2022] 
+Topic 7 - Segmentation, Thresholding & Detection of Discontinuities 
+62. What is image segmentation? Explain why it is needed / discuss its applications and the different types or 
+classification of image-segmentation techniques. - [2018, 2019, 2020, 2021, 2022, 2023] 
+63. Explain region-growing segmentation with an example. - [2021] 
+
+64. What is edge detection? Explain how an edge can be detected in an image. - [2019, 2021, 2022, 2023] 
+65. Describe how a line can be detected in an image. - [2022] 
+66. Write down the preconditions that support segmenting an entire region R into N subregions. - [2023] 
+67. What is the significance of first-order and second-order derivatives in edge detection? - [2023] 
+68. Write a short note on the gradient operation. - [2023] 
+69. Write down the basic theory of detection of discontinuities. - [2023] 
+70. How can you detect a point in an image? Describe the procedure. - [2018, 2020, 2022, 2023] 
+71. What is thresholding? Discuss the basics of intensity thresholding and write / explain the algorithm of global 
+thresholding where required. - [2018, 2019, 2022, 2023] 
+72. Write down the Sobel diagonal / diagram masks. - [2018, 2020] 
+73. Describe edge-detection techniques using the Sobel operator and the Laplacian operator. - [2022] 
+74. Write a short note on the Roberts and Prewitt operators. - [2019] 
+ 
+• 2022 Q2(b) path data and 2022 Q3(c) histogram-equalization table are preserved in the bank so the numerical 
+questions can be practised from this document alone.

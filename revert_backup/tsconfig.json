@@ -1,0 +1,12 @@
+{
+  "extends": "../backend/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "../backend",
+    "rootDir": "..",
+    "paths": {
+      "@google/genai": ["node_modules/@google/genai"],
+      "../config/env": ["src/config/env"]
+    }
+  },
+  "include": ["gemini.ts"]
+}

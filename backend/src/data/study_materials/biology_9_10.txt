@@ -1,0 +1,163 @@
+# NCTB Secondary Biology — Class 9-10 (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড জীববিজ্ঞান ৯ম-১০ম শ্রেণি)
+
+## Chapter 1: Lessons on Life (জীবন পাঠ)
+- Definition & Scope: Biology (Bios = life, Logos = knowledge/study). Physical biology (Morphology, Anatomy, Cytology, Histology, Physiology, Genetics, Ecology) vs Applied biology (Palaeontology, Biostatistics, Parasitology, Fishery, Entomology, Microbiology, Biotechnology).
+- Classification of Living Organisms: Purpose of biological taxonomy. Carolus Linnaeus (Father of Taxonomy).
+- Five Kingdom System (Whittaker & Margulis):
+  1. Monera: Unicellular, prokaryotic, no nuclear membrane or nucleolus, peptidoglycan cell wall, binary fission (Bacteria, Cyanobacteria/Nostoc).
+  2. Protista: Unicellular/colonial, eukaryotic, well-formed nucleus, mitosis/conjugation (Amoeba, Euglena, Paramecium, Diatoms).
+  3. Fungi: Eukaryotic, mostly multicellular, heterotrophic/saprophytic, chitin cell wall, reproduce by spores (Yeast, Penicillium, Agaricus/Mushroom).
+  4. Plantae: Eukaryotic, multicellular, autotrophic with chlorophyll, cellulose cell wall, advanced tissue systems (Bryophytes, Pteridophytes, Gymnosperms, Angiosperms).
+  5. Animalia: Eukaryotic, multicellular, heterotrophic, no cell wall, plastid or large central vacuole, ingestive nutrition (Invertebrates, Chordates).
+- Binomial Nomenclature: Two-part Latinized scientific names (Genus capitalized + specific epithet lowercase, italicized or underlined separately): Human (Homo sapiens), Tiger (Panthera tigris), Water lily (Nymphaea nouchali), Mango (Mangifera indica), Oriental Magpie-Robin (Copsychus saularis), Cholera bacterium (Vibrio cholerae).
+
+## Chapter 2: Cells and Tissues of Organisms (জীবকোষ ও টিস্যু)
+- Cell Structure & Organelles:
+  - Cell Wall: Cellulose, hemicellulose, lignin; provides rigidity and shape (absent in animals).
+  - Plasma Membrane: Fluid Mosaic Model (Singer & Nicolson) — phospholipid bilayer, intrinsic/extrinsic proteins, cholesterol, glycocalyx.
+  - Protoplasm & Cytoplasm: Cytoplasmic organelles: Mitochondria (Powerhouse of the cell, double-membrane, cristae, matrix, produces ATP), Plastids (Chloroplasts for photosynthesis with grana/stroma, Chromoplasts for color, Leucoplasts for storage), Endoplasmic Reticulum (RER with ribosomes for protein synthesis, SER for lipid synthesis), Ribosomes (70S in prokaryotes, 80S in eukaryotes), Golgi apparatus (packaging & secretion), Lysosomes (suicide bags, phagocytosis), Centrosome/Centrioles (spindle fiber formation in animal cells), Vacuoles.
+  - Nucleus: Nuclear membrane, nuclear pore, nucleoplasm, chromatin reticulum (DNA + histones), nucleolus.
+- Plant Tissues: Meristematic tissue (apical, intercalary, lateral) vs Permanent tissue (Simple: Parenchyma, Collenchyma, Sclerenchyma; Complex: Xylem [tracheids, vessels, xylem parenchyma, xylem fibers] for water transport, Phloem [sieve tubes, companion cells, phloem parenchyma, phloem fibers] for food translocation).
+- Animal Tissues:
+  1. Epithelial Tissue: Squamous, cuboidal, columnar, ciliated, glandular (protection, absorption, secretion).
+  2. Connective Tissue: Loose (areolar, adipose), dense (tendon, ligament), specialized/skeletal (cartilage, bone with osteocytes and Haversian system), fluid connective tissue (blood & lymph).
+  3. Muscular Tissue: Striated/skeletal (voluntary), smooth/unstriated (involuntary), cardiac muscle (intercalated discs, involuntary rhythmic contractions).
+  4. Nervous Tissue: Neurons (cell body, dendrites, axon with myelin sheath, synapse) and Neuroglia.
+
+## Chapter 3: Cell Division (কোষ বিভাজন)
+- Types of Cell Division:
+  1. Amitosis (Direct division): In prokaryotes, bacteria, yeast, amoeba; nucleus constricts directly into two without spindle formation.
+  2. Mitosis (Equational division): In somatic cells of body; produces 2 identical daughter cells with same chromosome number (2n -> 2n).
+     - Stages:
+       - Prophase: Chromosomes condense, dehydrate, thicken; nucleolus & nuclear membrane begin disintegrating.
+       - Prometaphase: Spindle apparatus forms from poles with traction fibers; aster rays develop.
+       - Metaphase: Chromosomes align at equatorial/metaphasic plate; centromeres attach to spindle fibers; maximum condensation.
+       - Anaphase: Centromere divides; sister chromatids separate into daughter chromosomes and move towards opposite poles (V, L, J, I shapes: metacentric, submetacentric, acrocentric, telocentric).
+       - Telophase: Chromosomes reach poles, uncoil into chromatin network, nuclear membrane and nucleolus re-form; cytokinesis occurs (cell plate in plants, cleavage furrow in animals).
+  3. Meiosis (Reductional division): In germ mother cells / reproductive cells (2n -> n); reduces chromosome number by half; produces 4 haploid gametes/spores.
+     - Significance: Crossing over during Pachytene of Prophase I creates genetic variation; maintains constant chromosome number generation after generation.
+
+## Chapter 4: Bio-energetics (জীবনীশক্তি)
+- ATP (Adenosine Triphosphate): The "Biological Energy Currency" / energy coin of the cell (ATP <=> ADP + Pi + 7.3 kcal/mol or 30.5 kJ/mol). Photophosphorylation and oxidative phosphorylation.
+- Photosynthesis (6CO2 + 12H2O -> C6H12O6 + 6H2O + 6O2 in presence of Chlorophyll & Sunlight):
+  - Light Dependent Phase: In thylakoid membranes; photolysis of water (2H2O -> 4H+ + 4e- + O2); reduction of NADP+ to NADPH + H+; ATP synthesis.
+  - Light Independent Phase (Carbon Fixation): In stroma:
+    1. C3 Pathway (Calvin-Benson Cycle): First stable product is 3-PGA (3-Phosphoglyceric acid). Catalyzed by RuBisCO. Found in rice, wheat, jute.
+    2. C4 Pathway (Hatch-Slack Cycle): First stable product is 4-carbon Oxaloacetic acid (OAA). Found in maize, sugarcane, sorghum; higher photosynthetic efficiency.
+  - Factors affecting photosynthesis: Light, CO2 (0.04% in air; optimum 1.0%), temperature (optimum 22 deg C to 35 deg C), water, minerals (Mg, Fe).
+- Cellular Respiration (C6H12O6 + 6O2 -> 6CO2 + 6H2O + 38 ATP):
+  - Aerobic Respiration Stages:
+    1. Glycolysis: In cytoplasm; 1 Glucose -> 2 Pyruvic acid + 2 ATP + 2 NADH + H+ (no O2 required).
+    2. Acetyl-CoA Formation: In mitochondrial matrix; 2 Pyruvic acid -> 2 Acetyl-CoA + 2 CO2 + 2 NADH + H+.
+    3. Krebs Cycle (Citric Acid Cycle): In mitochondrial matrix; completes oxidation; yields CO2, ATP/GTP, NADH, FADH2.
+    4. Electron Transport System (ETS): In inner mitochondrial membrane (cristae); oxidative phosphorylation yielding ATP and H2O.
+  - Anaerobic Respiration: Alcoholic fermentation (C6H12O6 -> 2 C2H5OH + 2 CO2 + 2 ATP) in yeast vs Lactic acid fermentation (C6H12O6 -> 2 Lactic Acid + 2 ATP) in bacteria and fatigued muscle cells.
+
+## Chapter 5: Food, Nutrition and Digestion (খাদ্য, পুষ্টি এবং পরিপাক)
+- Six Food Constituents: Carbohydrates (energy, 4 kcal/g), Proteins (growth & repair, amino acids, 4 kcal/g), Lipids/Fats (stored energy, fatty acids + glycerol, 9 kcal/g), Vitamins (A, D, E, K fat-soluble; B-complex, C water-soluble), Minerals (Ca, P, Fe, I), Water.
+- Body Mass Index (BMI): BMI = (Weight in kg) / (Height in meters)^2. Standard ranges: Underweight (<18.5), Normal (18.5-24.9), Overweight (25-29.9), Obese (>= 30).
+- Human Digestive System & Digestion:
+  - Alimentary canal: Mouth -> Buccal cavity -> Pharynx -> Esophagus -> Stomach -> Small intestine (Duodenum, Jejunum, Ileum) -> Large intestine (Caecum, Colon, Rectum) -> Anus.
+  - Digestive enzymes:
+    - Saliva: Salivary amylase (Ptyalin) converts starch to maltose.
+    - Gastric juice (HCl + pepsinogen): HCl activates pepsin; Pepsin breaks proteins into peptones and proteoses.
+    - Pancreatic juice: Trypsin/chymotrypsin (proteins -> peptides/amino acids), Pancreatic amylase (starch -> maltose), Pancreatic lipase (fats -> fatty acids + glycerol).
+    - Liver & Bile: Bile emulsifies fats (mechanical breakdown without enzymes).
+    - Intestinal juice: Erepsin, maltase, lactase, sucrase.
+  - Absorption: Intestinal villi and microvilli; blood capillaries absorb glucose & amino acids; lacteals absorb fatty acids & glycerol.
+
+## Chapter 6: Transport in Organisms (জীবে পরিবহন)
+- Plant Water & Mineral Absorption: Imbibition (colloids), Osmosis (endosmosis/exosmosis across semipermeable membrane), Diffusion. Root hair absorption.
+- Transpiration: Loss of water vapor from aerial plant parts. Types: Stomatal (90-95%), Cuticular (3-5%), Lenticular (1%). Stomatal mechanism governed by guard cells. Curtis called transpiration a "Necessary Evil". Ascent of sap via Xylem driven by transpiration pull, root pressure, cohesion-tension theory.
+- Human Circulatory System:
+  - Blood Components: Plasma (55% - water, albumin, globulin, fibrinogen) and Blood Corpuscles (45%):
+    1. RBC (Erythrocytes): Biconcave, enucleated, hemoglobin, lifespan 120 days, transport O2 as oxyhemoglobin.
+    2. WBC (Leukocytes): Nucleated, defensive soldiers; Granulocytes (Neutrophil, Eosinophil, Basophil), Agranulocytes (Lymphocyte produces antibodies, Monocyte phagocytosis).
+    3. Platelets (Thrombocytes): Lifespan 5-10 days, initiate blood clotting via thromboplastin -> thrombin -> fibrin clot.
+  - Blood Groups (ABO & Rh factor): A, B, AB (Universal recipient), O (Universal donor). Rh+ and Rh- incompatibility in pregnancy (Erythroblastosis fetalis).
+  - Human Heart: 4 chambers (Right & Left Atria, Right & Left Ventricles). Tricuspid valve (right), Bicuspid/Mitral valve (left), Semilunar valves (pulmonary & aortic). Double circulation: Systemic & Pulmonary circulation. Blood pressure (Normal 120/80 mmHg; systolic/diastolic). Hypertension, heart attack, angiography, coronary bypass, pacemaker.
+
+## Chapter 7: Gaseous Exchange (গ্যাসীয় বিনিময়)
+- Gaseous Exchange in Plants: Stomata and lenticels exchange O2 and CO2 by simple diffusion based on partial pressure gradients.
+- Human Respiratory System:
+  - Pathway: External nostrils -> Nasal cavity -> Pharynx -> Larynx (Vocal cords) -> Trachea -> Bronchi -> Bronchioles -> Alveoli (air sacs surrounded by capillaries).
+  - Mechanism of Breathing: Inspiration (Diaphragm flattens downward, intercostal muscles contract, ribs move upward and outward, thoracic volume increases, lung pressure drops, air rushes in) vs Expiration (muscles relax, thoracic volume decreases, air expelled).
+  - Gas transport: Oxygen transported mainly as Oxyhemoglobin and dissolved in plasma. Carbon dioxide transported as bicarbonate ions (HCO3-), carbamino compounds, and dissolved carbonic acid.
+  - Respiratory diseases: Asthma, Bronchitis, Emphysema, Pneumonia, Tuberculosis, Lung Cancer.
+
+## Chapter 8: Excretion in Organisms (রেচন প্রক্রিয়া)
+- Concept of Excretion: Elimination of nitrogenous metabolic wastes produced during cellular metabolism.
+- Human Excretory System: Kidneys, Ureters, Urinary bladder, Urethra.
+  - Structure of Kidney: Renal capsule, Cortex, Medulla, Renal pyramids, Renal pelvis.
+  - Nephron (Structural & Functional Unit): ~1-1.2 million nephrons per kidney:
+    1. Malpighian Body (Renal corpuscle): Glomerulus (tuft of capillaries from afferent arteriole) and Bowman's capsule (ultrafiltration).
+    2. Renal Tubule: Proximal Convoluted Tubule (PCT - major reabsorption of water, glucose, Na+), Loop of Henle (descending and ascending limbs - countercurrent multiplier), Distal Convoluted Tubule (DCT), Collecting Duct.
+  - Urine Formation: Glomerular ultrafiltration, tubular selective reabsorption, tubular secretion.
+- Kidney Diseases & Remedies: Nephritis, kidney stones, renal failure. Dialysis (Hemodialysis using dialyzer with semipermeable cellophane tubing) and Kidney Transplantation.
+
+## Chapter 9: Movement and Locomotion (দৃঢ়তা প্রদান ও চলন)
+- Human Skeletal System: Total 206 bones in adult:
+  - Axial Skeleton (80 bones): Skull (cranium 8, facial 14), Vertebral column (33 vertebrae: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral, 4 coccygeal), Ribs (12 pairs) & Sternum.
+  - Appendicular Skeleton (126 bones): Pectoral girdle & Upper limbs (arms), Pelvic girdle & Lower limbs (legs).
+- Bone and Cartilage:
+  - Bone: Rigid connective tissue with ossein matrix, calcium phosphate, osteocytes residing in lacunae connected by canaliculi around Haversian canals.
+  - Cartilage: Flexible connective tissue with chondrin matrix, chondrocytes in lacunae (ear pinna, epiglottis, intervertebral discs, articular joints).
+- Joints & Muscles: Fixed joints (sutures of skull), Slightly movable joints (vertebrae), Freely movable synovial joints (Ball & Socket joint of shoulder/hip, Hinge joint of elbow/knee). Tendons (bone-to-muscle dense fibrous tissue) vs Ligaments (bone-to-bone elastic tissue). Antagonistic muscle action (e.g. Biceps flexes arm, Triceps extends arm).
+
+## Chapter 10: Coordination (সমন্বয়)
+- Phytohormones (Plant Hormones): Auxin (apical dominance, phototropism), Gibberellin (internodal elongation, seed germination), Cytokinin (cell division), Abscisic acid & Ethylene (fruit ripening, leaf abscission).
+- Human Nervous System:
+  - Central Nervous System (CNS): Brain (Cerebrum for intelligence & voluntary actions, Cerebellum for muscular coordination & balance, Medulla oblongata for involuntary cardiac & respiratory control) and Spinal cord.
+  - Peripheral Nervous System (PNS): Cranial nerves (12 pairs) and Spinal nerves (31 pairs).
+  - Reflex Arc: Receptor -> Sensory neuron -> Interneuron in spinal cord -> Motor neuron -> Effector muscle.
+- Endocrine System (Hormones):
+  - Pituitary Gland (Master gland): Growth hormone, TSH, ACTH, Oxytocin, Vasopressin (ADH).
+  - Thyroid Gland: Thyroxine (T4) and Triiodothyronine (T3) regulating BMR (Goitre caused by iodine deficiency).
+  - Pancreas (Islets of Langerhans): Insulin (lowers blood glucose) and Glucagon (raises blood glucose). Diabetes Mellitus.
+  - Adrenal Glands: Adrenaline (emergency fight-or-flight hormone).
+  - Gonads: Testes (Testosterone) and Ovaries (Estrogen and Progesterone).
+
+## Chapter 11: Reproduction in Organisms (জীবের প্রজনন)
+- Plant Reproduction:
+  - Structure of a complete flower: Calyx (sepals), Corolla (petals), Androecium (stamens: filament + anther with pollen grains), Gynoecium/Pistil (carpel: stigma, style, ovary with ovules).
+  - Pollination: Self-pollination vs Cross-pollination (agents: wind, insects, birds, water).
+  - Fertilization in Angiosperms: Double fertilization (1 sperm + egg cell -> 2n Zygote/Embryo; 1 sperm + secondary nucleus -> 3n Triploid Endosperm).
+- Human Reproductive System:
+  - Male: Testes (seminiferous tubules produce sperm, Leydig cells produce testosterone), Vas deferens, Prostate gland, Urethra.
+  - Female: Ovaries (produce ova), Fallopian tubes (oviducts - site of fertilization), Uterus (endometrium - site of embryo implantation), Vagina. Menstrual cycle.
+  - Development of Embryo: Zygote -> Cleavage -> Morula -> Blastocyst -> Implantation -> Placenta formation -> Gestation (~280 days / 40 weeks) -> Parturition (Birth).
+
+## Chapter 12: Heredity in Organisms and Evolution (জীবের বংশগতি ও বিবর্তন)
+- Hereditary Material: Chromosomes (Autosomes 22 pairs + Sex chromosomes 1 pair: XX in female, XY in male).
+- DNA & RNA:
+  - DNA (Deoxyribonucleic Acid): Double helix model by Watson & Crick (1953). Nucleotides composed of Deoxyribose sugar + Phosphate group + Nitrogenous bases: Purines (Adenine A, Guanine G), Pyrimidines (Thymine T, Cytosine C). Base pairing: A = T (2 hydrogen bonds), G = C (3 hydrogen bonds).
+  - DNA Replication: Semiconservative replication (Meselson & Stahl).
+  - RNA: Single-stranded; Uracil (U) replaces Thymine; Ribose sugar. Types: mRNA, tRNA, rRNA.
+- Mendel's Laws of Inheritance (Gregor Johann Mendel):
+  - First Law (Law of Segregation): Alleles separate during gamete formation; monohybrid phenotypic ratio 3:1, genotypic ratio 1:2:1.
+  - Second Law (Law of Independent Assortment): Dihybrid phenotypic ratio 9:3:3:1.
+- Evolution: Lamarckism (Use and disuse, inheritance of acquired traits) vs Darwinism (Charles Darwin, Origin of Species by Natural Selection: overproduction, struggle for existence, variations, survival of the fittest, speciation).
+
+## Chapter 13: Environment of Life (জীবের পরিবেশ)
+- Ecosystem: Structural and functional unit of ecology. Components:
+  - Abiotic: Inorganic substances (C, N, H2O, O2), organic compounds (humus), climatic factors (temperature, light, wind, rainfall).
+  - Biotic: Producers (autotrophic green plants), Consumers (Primary herbivores, Secondary carnivores, Tertiary top carnivores), Decomposers/Reducers (bacteria, fungi).
+- Energy Flow in Ecosystem: Unidirectional flow following Laws of Thermodynamics; 10% law of energy transfer (Lindeman).
+- Food Chains & Food Webs: Grazing food chain vs Detritus food chain. Trophic levels (T1 -> T2 -> T3 -> T4).
+- Ecological Pyramids: Pyramid of Numbers, Pyramid of Biomass, Pyramid of Energy (always upright).
+- Symbiotic Relationships: Mutualism (+/+, e.g. Lichen, Rhizobium in legume roots), Commensalism (+/0, e.g. Epiphytic orchids), Parasitism (+/-, e.g. Cuscuta, tapeworm).
+
+## Chapter 14: Biotechnology (জীবপ্রযুক্তি)
+- Definition & Applications: Application of biological organisms, systems, or processes to manufacturing and service industries.
+- Plant Tissue Culture (Totipotency):
+  - Concept: Ability of a plant cell to develop into a full plant.
+  - Steps: Explant selection -> Culture medium preparation (nutrients, agar, phytohormones) -> Sterilization -> Inoculation -> Callus formation -> Shoot & root regeneration -> Acclimatization in soil.
+- Recombinant DNA Technology (Genetic Engineering):
+  - Steps:
+    1. Isolation of target desired gene from donor organism.
+    2. Selection and isolation of bacterial plasmid vector (e.g. E. coli plasmid).
+    3. Cleavage of DNA and plasmid at specific palindrome sites using Restriction Endonucleases ("Molecular Scissors").
+    4. Splicing/joining target gene into plasmid using DNA Ligase enzyme ("Molecular Glue").
+    5. Transformation: Introduction of recombinant plasmid into host bacteria.
+    6. Clonal proliferation and expression of the transformed recombinant bacteria.
+  - Applications: Production of human insulin, vaccines, disease-resistant and drought-resistant transgenic crops (Bt-cotton, Golden Rice rich in Vitamin A, insect-resistant crops).
