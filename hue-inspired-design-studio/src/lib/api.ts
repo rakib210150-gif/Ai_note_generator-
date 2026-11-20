@@ -15,14 +15,20 @@
 // 4. Defaults to local Express server (port 4000) during local development
 const getEnvBase = (): string => {
   if (typeof import.meta !== "undefined" && import.meta.env) {
-    if (import.meta.env.VITE_API_BASE_URL) return import.meta.env.VITE_API_BASE_URL as string;
-    if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL as string;
-    if (import.meta.env.PROD) return "https://ai-note-generator-06jh.onrender.com";
+    const metaEnv = import.meta.env;
+    const viteBaseUrl = metaEnv["VITE_API_BASE_URL"];
+    if (typeof viteBaseUrl === "string" && viteBaseUrl) return viteBaseUrl;
+    const viteUrl = metaEnv["VITE_API_URL"];
+    if (typeof viteUrl === "string" && viteUrl) return viteUrl;
+    if (metaEnv.PROD) return "https://ai-note-generator-06jh.onrender.com";
   }
   if (typeof process !== "undefined" && process.env) {
-    if (process.env.VITE_API_BASE_URL) return process.env.VITE_API_BASE_URL;
-    if (process.env.VITE_API_URL) return process.env.VITE_API_URL;
-    if (process.env.NODE_ENV === "production") return "https://ai-note-generator-06jh.onrender.com";
+    const procEnv = process.env;
+    const procBaseUrl = procEnv["VITE_API_BASE_URL"];
+    if (typeof procBaseUrl === "string" && procBaseUrl) return procBaseUrl;
+    const procUrl = procEnv["VITE_API_URL"];
+    if (typeof procUrl === "string" && procUrl) return procUrl;
+    if (procEnv["NODE_ENV"] === "production") return "https://ai-note-generator-06jh.onrender.com";
   }
   return "http://localhost:4000";
 };
