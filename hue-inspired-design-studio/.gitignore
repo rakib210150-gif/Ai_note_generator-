@@ -3,6 +3,7 @@
 .env.*
 !.env.example
 !.env.production
+!.env.development
 
 # Logs
 logs
