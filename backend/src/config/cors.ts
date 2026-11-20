@@ -5,8 +5,14 @@ export const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
     if (!origin) return callback(null, true);
 
+    // Support comma-separated origins in env.FRONTEND_ORIGIN
+    const configuredOrigins = (env.FRONTEND_ORIGIN || "")
+      .split(",")
+      .map((o) => o.trim())
+      .filter(Boolean);
+
     const allowedOrigins = [
-      env.FRONTEND_ORIGIN,
+      ...configuredOrigins,
       "http://localhost:5173",
       "http://localhost:8080",
       "http://localhost:8081",
@@ -19,8 +25,14 @@ export const corsOptions: CorsOptions = {
     ];
 
     const isLocalhost = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
+    const isVercelDomain = /^https:\/\/[a-zA-Z0-9-]+\.vercel\.app$/.test(origin);
 
-    if (allowedOrigins.includes(origin) || isLocalhost || env.NODE_ENV === "development") {
+    if (
+      allowedOrigins.includes(origin) ||
+      isLocalhost ||
+      isVercelDomain ||
+      env.NODE_ENV === "development"
+    ) {
       callback(null, true);
     } else {
       callback(new Error(`CORS error: Origin ${origin} not allowed`));
@@ -28,7 +40,13 @@ export const corsOptions: CorsOptions = {
   },
   credentials: true,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
+  allowedHeaders: [
+    "Content-Type",
+    "Authorization",
+    "X-Requested-With",
+    "x-user-id",
+    "x-auth-token",
+  ],
 };
 
 export const corsMiddleware = cors(corsOptions);

@@ -2,11 +2,33 @@
  * Brain Nest Unified API Client
  * Seamlessly connects React/TanStack frontend to Express + Supabase backend.
  * Features:
+ * - Centralized API Base URL configuration supporting VITE_API_BASE_URL and VITE_API_URL
+ * - Automatic URL normalization (strips trailing slashes and prevents duplicate /api/v1)
  * - Automatic Bearer token attachment from Supabase Auth session
  * - Graceful fallback to client-side store when backend is offline or unconfigured
  */
 
-const API_BASE = import.meta.env["VITE_API_URL"] || "http://localhost:4000/api/v1";
+// Centralized API Base URL resolution:
+// 1. Checks VITE_API_BASE_URL (recommended)
+// 2. Checks VITE_API_URL (backward compatibility)
+// 3. Defaults to live Render production backend in production builds
+// 4. Defaults to local Express server (port 4000) during local development
+const rawApiBase: string =
+  (import.meta.env.VITE_API_BASE_URL as string | undefined) ||
+  (import.meta.env.VITE_API_URL as string | undefined) ||
+  (import.meta.env["VITE_API_BASE_URL"] as string | undefined) ||
+  (import.meta.env["VITE_API_URL"] as string | undefined) ||
+  (import.meta.env.PROD
+    ? "https://ai-note-generator-06jh.onrender.com"
+    : "http://localhost:4000");
+
+// Normalize to ensure trailing slash is stripped and /api/v1 version prefix is present without duplicates
+const cleanApiBase = rawApiBase.replace(/\/+$/, "");
+const API_BASE = cleanApiBase.endsWith("/api/v1")
+  ? cleanApiBase
+  : cleanApiBase.endsWith("/api")
+  ? `${cleanApiBase}/v1`
+  : `${cleanApiBase}/api/v1`;
 
 export interface ApiResponse<T = any> {
   success: boolean;
