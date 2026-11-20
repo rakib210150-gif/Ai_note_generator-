@@ -9,22 +9,28 @@
  */
 
 // Centralized API Base URL resolution:
-// 1. Checks VITE_API_BASE_URL (recommended)
+// 1. Checks VITE_API_BASE_URL (standardized across Vite and Vercel)
 // 2. Checks VITE_API_URL (backward compatibility)
 // 3. Defaults to live Render production backend in production builds
 // 4. Defaults to local Express server (port 4000) during local development
-const rawApiBase: string =
-  (import.meta.env.VITE_API_BASE_URL as string | undefined) ||
-  (import.meta.env.VITE_API_URL as string | undefined) ||
-  (import.meta.env["VITE_API_BASE_URL"] as string | undefined) ||
-  (import.meta.env["VITE_API_URL"] as string | undefined) ||
-  (import.meta.env.PROD
-    ? "https://ai-note-generator-06jh.onrender.com"
-    : "http://localhost:4000");
+const getEnvBase = (): string => {
+  if (typeof import.meta !== "undefined" && import.meta.env) {
+    if (import.meta.env.VITE_API_BASE_URL) return import.meta.env.VITE_API_BASE_URL as string;
+    if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL as string;
+    if (import.meta.env.PROD) return "https://ai-note-generator-06jh.onrender.com";
+  }
+  if (typeof process !== "undefined" && process.env) {
+    if (process.env.VITE_API_BASE_URL) return process.env.VITE_API_BASE_URL;
+    if (process.env.VITE_API_URL) return process.env.VITE_API_URL;
+    if (process.env.NODE_ENV === "production") return "https://ai-note-generator-06jh.onrender.com";
+  }
+  return "http://localhost:4000";
+};
 
 // Normalize to ensure trailing slash is stripped and /api/v1 version prefix is present without duplicates
+const rawApiBase = getEnvBase().trim();
 const cleanApiBase = rawApiBase.replace(/\/+$/, "");
-const API_BASE = cleanApiBase.endsWith("/api/v1")
+export const API_BASE = cleanApiBase.endsWith("/api/v1")
   ? cleanApiBase
   : cleanApiBase.endsWith("/api")
   ? `${cleanApiBase}/v1`
@@ -133,34 +139,64 @@ class ApiClient {
     }
 
     let token = this.token || (typeof window !== "undefined" ? localStorage.getItem("bn_auth_token") : null);
-    if (!token && typeof window !== "undefined") {
+    let userId: string | null = null;
+
+    if (typeof window !== "undefined") {
       try {
         const rawUser = localStorage.getItem("bn_user");
         if (rawUser) {
           const u = JSON.parse(rawUser);
           if (u?.id && u.id !== "guest") {
-            token = u.id;
+            userId = u.id;
+            if (!token) {
+              token = u.id;
+            }
           }
         }
       } catch {}
     }
+
     if (token) {
       headers["Authorization"] = `Bearer ${token}`;
+      headers["x-auth-token"] = token;
+    }
+    if (userId) {
+      headers["x-user-id"] = userId;
     }
 
     try {
       const response = await fetch(url, {
+        credentials: "include",
         ...options,
         headers,
       });
 
-      const json = await response.json();
-      return json as ApiResponse<T>;
+      const contentType = response.headers.get("content-type") || "";
+      if (contentType.includes("application/json")) {
+        const json = await response.json();
+        return json as ApiResponse<T>;
+      }
+
+      // Handle non-JSON or HTML response (e.g. proxy/gateway 502/503 during cold boots)
+      const text = await response.text();
+      if (!response.ok) {
+        return {
+          success: false,
+          message: text || `Backend returned status ${response.status} (${response.statusText})`,
+          error: { code: `HTTP_${response.status}`, details: text },
+        };
+      }
+
+      return {
+        success: true,
+        message: "Success",
+        data: text as unknown as T,
+      };
     } catch (networkError: any) {
       return {
         success: false,
         message: networkError?.message || "Failed to connect to Brain Nest backend",
-        error: { code: "NETWORK_ERROR" },
+        error: { code: "NETWORK_ERROR", details: networkError },
       };
     }
   }
