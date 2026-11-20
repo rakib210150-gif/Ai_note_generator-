@@ -3,10 +3,10 @@ import path from "path";
 import pdfParse from "pdf-parse";
 import mammoth from "mammoth";
 import JSZip from "jszip";
-import { supabaseAdmin } from "../../lib/supabase";
-import { env } from "../../config/env";
-import { geminiService } from "../../lib/gemini";
-import { findCurriculumSubject, NCTB_CURRICULUM_DATABASE } from "./curriculum-knowledge";
+import { supabaseAdmin } from "../../lib/supabase.js";
+import { env } from "../../config/env.js";
+import { geminiService } from "../../lib/gemini.js";
+import { findCurriculumSubject, NCTB_CURRICULUM_DATABASE } from "./curriculum-knowledge.js";
 
 export interface DocumentUploadResult {
   id: string;

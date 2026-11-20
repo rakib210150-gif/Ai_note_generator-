@@ -1,7 +1,7 @@
 import { z } from "zod";
-import { geminiService } from "../../lib/gemini";
-import { supabaseAdmin } from "../../lib/supabase";
-import { walletService } from "../wallet/wallet.service";
+import { geminiService } from "../../lib/gemini.js";
+import { supabaseAdmin } from "../../lib/supabase.js";
+import { walletService } from "../wallet/wallet.service.js";
 
 export const analyzeQuestionsSchema = z.object({
   educationLevel: z.string().min(1).default("Uploaded Document"),

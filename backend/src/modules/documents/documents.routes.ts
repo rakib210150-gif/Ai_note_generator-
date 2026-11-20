@@ -1,9 +1,9 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { documentService } from "./documents.service";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { uploadMiddleware } from "../../middleware/upload.middleware";
-import { sendSuccess, sendError } from "../../utils/response";
-import { supabaseAdmin } from "../../lib/supabase";
+import { documentService } from "./documents.service.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { uploadMiddleware } from "../../middleware/upload.middleware.js";
+import { sendSuccess, sendError } from "../../utils/response.js";
+import { supabaseAdmin } from "../../lib/supabase.js";
 
 const router = Router();
 

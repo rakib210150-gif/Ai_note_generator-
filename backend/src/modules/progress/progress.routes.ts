@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { progressService } from "./progress.service";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { sendSuccess } from "../../utils/response";
+import { progressService } from "./progress.service.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { sendSuccess } from "../../utils/response.js";
 
 const router = Router();
 

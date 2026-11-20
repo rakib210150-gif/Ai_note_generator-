@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
-import { supabaseAdmin } from "../lib/supabase";
-import { sendError } from "../utils/response";
+import { supabaseAdmin } from "../lib/supabase.js";
+import { sendError } from "../utils/response.js";
 
 export interface AuthenticatedUser {
   id: string;

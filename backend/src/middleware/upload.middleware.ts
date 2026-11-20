@@ -1,6 +1,6 @@
 import multer, { FileFilterCallback } from "multer";
 import { Request } from "express";
-import { env } from "../config/env";
+import { env } from "../config/env.js";
 
 const storage = multer.memoryStorage();
 

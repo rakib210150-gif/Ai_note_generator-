@@ -1,8 +1,8 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { graphService, generateGraphSchema } from "./graph.service";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { aiRateLimiter } from "../../middleware/rate-limit.middleware";
-import { sendSuccess, sendError } from "../../utils/response";
+import { graphService, generateGraphSchema } from "./graph.service.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { aiRateLimiter } from "../../middleware/rate-limit.middleware.js";
+import { sendSuccess, sendError } from "../../utils/response.js";
 import { z } from "zod";
 
 const router = Router();

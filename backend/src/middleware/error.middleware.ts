@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { ZodError } from "zod";
-import { sendError } from "../utils/response";
-import { env } from "../config/env";
+import { sendError } from "../utils/response.js";
+import { env } from "../config/env.js";
 
 export function errorMiddleware(err: any, _req: Request, res: Response, _next: NextFunction): void {
   console.error("Unhandled Application Error:", err);

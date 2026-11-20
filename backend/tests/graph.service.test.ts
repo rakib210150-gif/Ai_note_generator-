@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { graphService } from "../src/modules/graph/graph.service";
+import { graphService } from "../src/modules/graph/graph.service.js";
 
 describe("GraphService Unit Tests", () => {
   it("should return curated roadmaps with valid prerequisites and unlocks", () => {

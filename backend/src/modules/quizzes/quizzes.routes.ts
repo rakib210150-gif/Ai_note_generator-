@@ -1,8 +1,8 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { quizService, generateQuizSchema } from "./quizzes.service";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { aiRateLimiter } from "../../middleware/rate-limit.middleware";
-import { sendSuccess } from "../../utils/response";
+import { quizService, generateQuizSchema } from "./quizzes.service.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { aiRateLimiter } from "../../middleware/rate-limit.middleware.js";
+import { sendSuccess } from "../../utils/response.js";
 import { z } from "zod";
 
 const router = Router();

@@ -1,5 +1,5 @@
 import { JWT } from "google-auth-library";
-import { env } from "../../config/env";
+import { env } from "../../config/env.js";
 
 export interface SyncUserRegistrationParams {
   userId: string;

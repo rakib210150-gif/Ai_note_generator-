@@ -1,9 +1,9 @@
 import express, { Express } from "express";
 import helmet from "helmet";
-import { corsMiddleware } from "./config/cors";
-import { standardRateLimiter } from "./middleware/rate-limit.middleware";
-import { errorMiddleware } from "./middleware/error.middleware";
-import apiRoutes from "./routes";
+import { corsMiddleware } from "./config/cors.js";
+import { standardRateLimiter } from "./middleware/rate-limit.middleware.js";
+import { errorMiddleware } from "./middleware/error.middleware.js";
+import apiRoutes from "./routes/index.js";
 
 export function createApp(): Express {
   const app = express();

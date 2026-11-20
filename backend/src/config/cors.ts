@@ -1,5 +1,5 @@
 import cors, { CorsOptions } from "cors";
-import { env } from "./env";
+import { env } from "./env.js";
 
 export const corsOptions: CorsOptions = {
   origin: (origin, callback) => {

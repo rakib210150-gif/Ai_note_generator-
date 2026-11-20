@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { walletService } from "./wallet.service";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { sendSuccess, sendError } from "../../utils/response";
+import { walletService } from "./wallet.service.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { sendSuccess, sendError } from "../../utils/response.js";
 import { z } from "zod";
 
 const router = Router();

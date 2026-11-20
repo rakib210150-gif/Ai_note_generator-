@@ -1,8 +1,8 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { questionsService, analyzePapersSchema, analyzeSyllabusAndBookSchema } from "./questions.service";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { aiRateLimiter } from "../../middleware/rate-limit.middleware";
-import { sendSuccess } from "../../utils/response";
+import { questionsService, analyzePapersSchema, analyzeSyllabusAndBookSchema } from "./questions.service.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { aiRateLimiter } from "../../middleware/rate-limit.middleware.js";
+import { sendSuccess } from "../../utils/response.js";
 
 const router = Router();
 

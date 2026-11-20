@@ -1,9 +1,9 @@
 import { z } from "zod";
-import { geminiService } from "../../lib/gemini";
-import { supabaseAdmin } from "../../lib/supabase";
-import { walletService } from "../wallet/wallet.service";
-import { pricingConfig } from "../../config/env";
-import { documentService } from "../documents/documents.service";
+import { geminiService } from "../../lib/gemini.js";
+import { supabaseAdmin } from "../../lib/supabase.js";
+import { walletService } from "../wallet/wallet.service.js";
+import { pricingConfig } from "../../config/env.js";
+import { documentService } from "../documents/documents.service.js";
 
 export const tutorMessageSchema = z.object({
   conversationId: z.string().optional().nullable(),

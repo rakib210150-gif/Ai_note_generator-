@@ -1,8 +1,8 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { supabaseAdmin, supabasePublic } from "../../lib/supabase";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { sendSuccess, sendError } from "../../utils/response";
-import { googleSheetsService } from "../google-sheets/google-sheets.service";
+import { supabaseAdmin, supabasePublic } from "../../lib/supabase.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { sendSuccess, sendError } from "../../utils/response.js";
+import { googleSheetsService } from "../google-sheets/google-sheets.service.js";
 import { z } from "zod";
 
 const router = Router();

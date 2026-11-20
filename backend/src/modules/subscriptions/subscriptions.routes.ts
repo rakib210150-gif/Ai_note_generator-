@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { supabaseAdmin } from "../../lib/supabase";
-import { requireAuth } from "../../middleware/auth.middleware";
-import { sendSuccess } from "../../utils/response";
+import { supabaseAdmin } from "../../lib/supabase.js";
+import { requireAuth } from "../../middleware/auth.middleware.js";
+import { sendSuccess } from "../../utils/response.js";
 
 const router = Router();
 

@@ -1,8 +1,8 @@
 import { z } from "zod";
-import { geminiService } from "../../lib/gemini";
-import { supabaseAdmin } from "../../lib/supabase";
-import { walletService } from "../wallet/wallet.service";
-import { documentService } from "../documents/documents.service";
+import { geminiService } from "../../lib/gemini.js";
+import { supabaseAdmin } from "../../lib/supabase.js";
+import { walletService } from "../wallet/wallet.service.js";
+import { documentService } from "../documents/documents.service.js";
 
 export const generateGraphSchema = z.object({
   targetTopic: z.string().min(1, "Topic or learning goal is required"),

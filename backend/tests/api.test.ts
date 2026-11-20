@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import request from "supertest";
-import { createApp } from "../src/app";
+import { createApp } from "../src/app.js";
 
 describe("Brain Nest Backend Health & Security Tests", () => {
   const app = createApp();
